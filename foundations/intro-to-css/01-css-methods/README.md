@@ -14,7 +14,7 @@ The properties you need to add to each element are:
 
 ## Desired Outcome
 ![desired outcome](./desired-outcome.png)
-
+        
 
 ### Self Check
 - Did you use all three methods of adding CSS to an HTML file?
