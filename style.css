@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 16px 128px 100px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#hero .one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+#hero .two {
+    display: flex;
+    padding: 64px 0px;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#hero .two div {
+    min-width: 250px;
+    max-width: 400px;
+    height: auto;
+}
+
+#hero img {
+    width: 350px;
+    height: 200px;
+}
+
+#hero .two p {
+    color: #e5e7eb;
+    margin: 4px 0;
+}
+
+#hero button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    font-weight: 700;
+}
+
+.main .first {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 64px;
+    gap: 96px;
+    flex-wrap: wrap;
+    
+}
+
+.imgs img  {
+    border-radius: 10px;
+    border: #3882f6 solid;
+}
+
+.imgs .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4px;
+}
+
+.imgs .container div {
+    max-width: 150px;
+}
+
+.main .second {
+    background-color: #e5e7eb;
+    padding: 150px;
+}
+
+.main .second {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main .second .quoter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.main .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.main .third {
+    display: flex;
+    color: white;
+    margin: 84px 144px; 
+    padding: 36px 128px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.third button {
+    background-color: #3882f6;
+    border: 1px solid white ;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
